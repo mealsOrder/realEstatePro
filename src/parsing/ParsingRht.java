@@ -4,7 +4,7 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
 /**
- * @author 김준근
+ * @author 장윤재
  * 연립다세대 매매거래 정보를 분류하는 클래스
  * @since 2018년 12월 02일
  */

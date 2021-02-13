@@ -11,7 +11,13 @@ import java.util.logging.Logger;
 
 /**
  * 클라이언트가 보내온 단어를 수신하고 다시 보내주는 서버 클래스.
- * @author 
+ * 
+ * Copyright 2021. 장윤재(MealsOrder). All rights reserved.
+ * 
+ * @author "MealsOrder"
+ * @version
+ * @since 2021-02-13
+ *
  */
 public class TcpEchoServer {
 	private int serverPort = 8888;//서버에서 사용하는 포트번호

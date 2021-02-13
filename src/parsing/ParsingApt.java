@@ -4,9 +4,13 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
 /**
- * @author 김준근
+ * @author 장윤재
+ * 
  * 아파트 매매거래 정보를 분류하는 클래스
  * @since 2018년 12월 02일
+ * 
+ * 라이브러리 추가 및 버그 수정
+ * @since 2021년 2월 13일
  */
 public class ParsingApt extends ParsingBase {
     public ParsingApt(String reignCode, String dealMonth, String area) {

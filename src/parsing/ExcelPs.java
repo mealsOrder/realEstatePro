@@ -8,10 +8,11 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 /**
- * 
- * @author MealsOrder
  * 지역코드가 포함된 Excel 파일을 파싱하는 클래스
+ * @author 장윤재
+ * @since 2021년 2월 13일
  */
+
 
 public class ExcelPs {
 	 public String areaCodes ="";
@@ -22,6 +23,7 @@ public class ExcelPs {
 		XSSFCell cell;
 		XSSFCell sido;
 
+		@SuppressWarnings("resource")
 		public ExcelPs(String areaName, String sidoName) {
 			this.areaName = areaName; //지역이름
 			this.sidoName = sidoName; //시도이름

@@ -25,6 +25,18 @@ import com.toedter.calendar.JCalendar;
 import client.Client;
 import parsing.ExcelPs;
 
+/**
+ * @class AptPrice
+ * 클라이언트를 받아 아파트 가격을 GUI창에 표시해주는 클래스
+ * 
+ * Copyright 2021. 장윤재(MealsOrder). All rights reserved.
+ * 
+ * @author "MealsOrder"
+ * @version
+ * @since 2021-02-13
+ *
+ */
+
 public class AptPrice {
     private JDialog aptPriceDlg;
     private JFrame aptPriceFrame;
